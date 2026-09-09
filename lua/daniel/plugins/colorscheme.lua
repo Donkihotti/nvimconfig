@@ -22,9 +22,23 @@ return {
         inverse = true, -- invert background for search, diffs, statuslines and errors
         contrast = "hard",
         palette_overrides = {},
-        overrides = {},
-        dim_inactive = false,
+
         transparent_mode = true,
+
+        overrides = {
+        Normal = { bg = "NONE" },
+        NormalFloat = { bg = "NONE" },
+        SignColumn = { bg = "NONE" },
+        StatusLine = { bg = "NONE" },
+        StatusLineNC = { bg = "NONE" },
+        EndOfBuffer = { bg = "NONE" },
+        LineNr = { bg = "NONE" },
+        CursorLineNr = { bg = "NONE" },
+        FoldColumn = { bg = "NONE" },
+        WinSeparator = { bg = "NONE" },
+        },
+
+        dim_inactive = false,
     })
     vim.cmd("colorscheme gruvbox")
   end,
