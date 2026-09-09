@@ -25,18 +25,7 @@ return {
 
         transparent_mode = true,
 
-        overrides = {
-        Normal = { bg = "NONE" },
-        NormalFloat = { bg = "NONE" },
-        SignColumn = { bg = "NONE" },
-        StatusLine = { bg = "NONE" },
-        StatusLineNC = { bg = "NONE" },
-        EndOfBuffer = { bg = "NONE" },
-        LineNr = { bg = "NONE" },
-        CursorLineNr = { bg = "NONE" },
-        FoldColumn = { bg = "NONE" },
-        WinSeparator = { bg = "NONE" },
-        },
+        overrides = {},
 
         dim_inactive = false,
     })
